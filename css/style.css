@@ -1,0 +1,377 @@
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #16a085;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/* unvisited link */
+a:link {
+  color: #4a4a4a;
+}
+
+/* visited link */
+a:visited {
+  color: #4a4a4a;
+}
+
+/* mouse over link */
+a:hover {
+  color: #7a9981;
+  text-decoration: none;
+  transition: .4s ease;
+}
+
+/* selected link */
+a:active {
+  color: #7a9981;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #ebebeb;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #4a4a4a;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 45px;
+  color: #92ca9f;
+}
+
+h3 {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: #384134;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: left;
+  color: #7a9981;
+}
+
+h5 {
+  font-weight: 200;
+  font-size: 17px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+h6 {
+  font-weight: 200;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 70%;
+  width: 17px;
+  position: fixed;
+  z-index: 1;
+  top: 15%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 6px 20px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  text-align: right;
+}
+
+.sidenav a:link, .sidenav a:visited {
+  color: #92ca9f;
+}
+
+.sidenav a:hover {
+  color: #ebebeb;
+  text-decoration: none;
+  transition: .4s ease;
+}
+
+.sidenav a:focus {
+  color: #ebebeb;
+}
+
+.sidenav .hovericon {
+  position: absolute;
+  top: 45%;
+  right: 1px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #ebebeb;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.normalizedImg img {
+  width: auto;
+  height: auto;
+  max-width: 2048;
+  max-height: 1080;
+}
+
+.gifbox {
+  display: grid;
+  height: 100%;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 90vh;
+  margin: auto
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/header.png) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+  text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#423f3f;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	font-size: 80px;
+	font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #423f3f
+}
+
+@media (max-width: 768px) {
+  #headerwrap {
+    padding-top: 180px;
+  }
+}
+
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+  color: #7a9981;
+  transition: .4s ease
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+
+#workwrap {
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+#aboutwrap {
+	background: url(../img/about.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#wrapper {
+  padding: 0px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-container {
+  float: left;
+  width: 550px;
+  height: 413px;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 550px;
+  height: 413px;
+  position: absolute;
+}
+
+.image-caption {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+}
+
+.image-caption h1 {
+  padding: 125px 0px 15px 0px;
+  text-align: center;
+  margin-left: -15px;
+  text-transform: uppercase;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 25px;
+  color: #00bfb6;
+}
+
+.image-caption p {
+  padding: 0px 35px 0px 35px;
+  text-align: center;
+  font-family: 'Kulim Park', sans-serif;
+  color: #fff;
+}
+
+.image-container:hover .image-caption {
+  opacity: 1;
+}
