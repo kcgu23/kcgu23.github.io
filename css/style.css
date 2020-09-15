@@ -380,12 +380,23 @@ h6 {
 /* ==========================================================================
    Video Popup
    ========================================================================== */
-#headerPopup {
-    width: 75%;
-    margin: 0 auto;
+#video_pop {
+    z-index: 9999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    cursor: pointer;
 }
 
-#headerPopup iframe {
-    width: 100%;
-    margin: 0 auto;
+#the_Video {
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

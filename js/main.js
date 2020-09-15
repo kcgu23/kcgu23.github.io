@@ -22,9 +22,25 @@ function clickNav() {
 }
 
 /* Video popup */
-$(document).ready(function() {
-  $('#headerVideoLink').magnificPopup({
-    type:'inline',
-    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-  });         
-});
+function onVideoClick(theLink) {
+    document.getElementById("video_pop").innerHTML = "<video autoplay muted loop id=\"the_Video\"><source src=\""+theLink+"\" type=\"video/webm\"></video>";
+    document.getElementById("video_pop").style.display="block";
+} 
+
+function onPopClick() {
+    document.getElementById("video_pop").style.display="none";
+    document.getElementById("video_pop").innerHTML = ""; 
+}         
+
+var element = document.getElementById("video_pop");
+
+element.onclick = (function (onclick) {
+  return function(evt) {
+    evt  = evt || event;
+
+    if (onclick) {
+      onclick(evt);
+    }
+     if (evt.target == element) { element.style.display="none"; } 
+  }
+})(element.onclick);
