@@ -20,31 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f1823fc-ac17-479b-b45d-4c92f733a53e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/freehim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/LevelEditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/Popup4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/freehim/TitleScreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/freehim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/visual-design/freehim-visual-design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/visual-design/project-terrarium.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Gu_Kristina.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Gu_Kristina.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/for-the-world-an-elegy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/for-the-world-an-elegy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/meat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/the-dragon-in-the-sea.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/the-dragon-in-the-sea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/the-funeral.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/the-funeral.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kristala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/freehim.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/freehim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/visual-design/freehim-visual-design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/visual-design/project-terrarium.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/project-terrarium.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
