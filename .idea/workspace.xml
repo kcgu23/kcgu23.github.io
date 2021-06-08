@@ -20,7 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f1823fc-ac17-479b-b45d-4c92f733a53e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/freehim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/LevelEditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Mockup3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/Popup4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/freehim/TitleScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/freehim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/visual-design/freehim-visual-design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/visual-design/project-terrarium.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Gu_Kristina.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Gu_Kristina.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/for-the-world-an-elegy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/for-the-world-an-elegy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/meat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/the-dragon-in-the-sea.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/the-dragon-in-the-sea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/the-funeral.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/creative-writing/the-funeral.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kristala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +61,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/documents" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kristina\Desktop\Internships\kcgu23.github.io\documents" />
+      <recent name="C:\Users\Kristina\Desktop\Internships\kcgu23.github.io\img\freehim" />
+      <recent name="C:\Users\Kristina\Desktop\Internships\kcgu23.github.io\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kristina\Desktop\Internships\kcgu23.github.io\pages" />
+      <recent name="C:\Users\Kristina\Desktop\Internships\kcgu23.github.io\pages\creative-writing" />
       <recent name="C:\Users\Kristina\Desktop\Internships\Website\kcgu23.github.io" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kcgu23.github.io/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="the-dragon-in-the-sea.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kcgu23.github.io/the-dragon-in-the-sea.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/../../../Classes/Semester 5/CS4620/A0/assignment0/package.json" />
+      <package-json value="$USER_HOME$/Classes/Semester 5/CS4620/A0/assignment0/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -64,12 +90,12 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.the-dragon-in-the-sea.html" />
-      </list>
-    </recent_temporary>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kcgu23.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="the-dragon-in-the-sea.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kcgu23.github.io/the-dragon-in-the-sea.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +112,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -96,6 +126,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602308237087">

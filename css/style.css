@@ -67,7 +67,7 @@ body {
     font-family: 'Kulim Park', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    background-color: #ebebeb;
+    background-color: #000000;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -84,6 +84,7 @@ h2 {
   font-weight: 200;
   font-size: 45px;
   color: #92ca9f;
+  text-align: center;
 }
 
 h3 {
@@ -103,7 +104,14 @@ h4 {
 
 h5 {
   font-weight: 200;
-  font-size: 17px;
+  font-size: 18px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+h5b {
+  font-weight: 200;
+  font-size: 20px;
   text-align: left;
   color: #4a4a4a;
 }
@@ -116,15 +124,23 @@ h6 {
   color: #4a4a4a;
 }
 
+h6b {
+  font-weight: 200;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #556b5a;
+}
+
 /* ==========================================================================
    Sidebar Menu
    ========================================================================== */
 .sidenav {
-  height: 70%;
+  height: 50%;
   width: 17px;
   position: fixed;
   z-index: 1;
-  top: 15%;
+  top: 25%;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   overflow-x: hidden;
@@ -187,18 +203,44 @@ h6 {
 }
 
 /* ==========================================================================
+   Page Header
+   ========================================================================== */
+
+/* Style the header */
+.header {
+  padding: 1px;
+  text-align:center;
+  z-index: 10;
+}
+
+/* Page content */
+.content {
+  padding: 1px;
+  background-color: #ebebeb;
+  z-index: -999;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header.png) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-  text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
+    background: url(../img/header.png) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 250px;
+    text-align:center;
+    background-attachment: fixed;
+    background-position: center bottom;
+    min-height: 650px;
+    width: 100%;
+    z-index: 5;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -214,7 +256,7 @@ h6 {
 #headerwrap h1 {
 	color:#423f3f;
 	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	letter-spacing: 1px;
 	font-size: 80px;
 	font-weight: bold;
@@ -222,6 +264,43 @@ h6 {
 }
 
 #headerwrap h4 {
+	font-weight: 400;
+	color: #423f3f
+}
+
+#headerwrap2 {
+    background: url(../img/header.png) no-repeat center top;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align:center;
+    background-attachment: fixed;
+    background-position: center 160%;
+    min-height: 160px;
+    width: 100%;
+    z-index: 5;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap2 h1 {
+	color:#423f3f;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	letter-spacing: 1px;
+	font-size: 80px;
+	font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#headerwrap2 h4 {
 	font-weight: 400;
 	color: #423f3f
 }
