@@ -23,7 +23,7 @@ function clickNav() {
   }
 }
 
-/** HEADER */
+/** HEADER
 
 // When the user scrolls the page, make the header sticky
 window.onscroll = function() {stickyHeader()};
@@ -43,3 +43,4 @@ function stickyHeader() {
         header.style.marginTop = window.pageYOffset;
     }
 }
+*/

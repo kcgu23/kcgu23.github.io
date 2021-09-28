@@ -355,7 +355,7 @@ h6b {
 .story-text {
     font-family: 'Kulim Park', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     background-color: rgba(235, 235, 235, 0.92);
     margin-top: 5%;
     margin-bottom: 10%;
@@ -370,10 +370,12 @@ h6b {
 
 .story-text h2 {
     color: #567c5f;
+    font-size: 50px;
 }
 
 .story-text h6 {
     text-align: center;
+    font-size: 22px;
 }
 
 /* ==========================================================================
